@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/quiz_master"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/caption"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/Textbox_style"
+            android:text="@string/question1" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption1" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption2" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption3" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption4" />
+
+        <TextView
+            style="@style/Textbox_style"
+            android:text="@string/question2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_button1"
+                style="@style/Radio_Button_Style"
+                android:text="@string/RadioButton1" />
+
+            <RadioButton
+                android:id="@+id/radio_button2"
+                style="@style/Radio_Button_Style"
+                android:text="@string/RadioButton2" />
+
+            <RadioButton
+                android:id="@+id/radio_button3"
+                style="@style/Radio_Button_Style"
+                android:text="@string/RadioButton3" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Textbox_style"
+            android:text="@string/question3" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <TextView
+            style="@style/Textbox_style"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_button4_1"
+                style="@style/Radio_Button_Style"
+                android:text="@string/RadioButton4_1" />
+
+            <RadioButton
+                android:id="@+id/radio_button4_2"
+                style="@style/Radio_Button_Style"
+                android:text="@string/RadioButton4_2" />
+
+            <RadioButton
+                android:id="@+id/radio_button4_3"
+                style="@style/Radio_Button_Style"
+                android:text="@string/RadioButton4_3" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Textbox_style"
+            android:text="@string/question5" />
+
+        <CheckBox
+            android:id="@+id/checkbox5_1"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption5_1" />
+
+        <CheckBox
+            android:id="@+id/checkbox5_2"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption5_2" />
+
+        <CheckBox
+            android:id="@+id/checkbox5_3"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption5_3" />
+
+        <CheckBox
+            android:id="@+id/checkbox5_4"
+            style="@style/checkBox_Style"
+            android:text="@string/checkboxOption5_4" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="submitButton"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>

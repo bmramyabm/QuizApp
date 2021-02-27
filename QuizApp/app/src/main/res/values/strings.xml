@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">1.Who is the founder of Microsoft?</string>
+    <string name="checkboxOption1">Paul Allen</string>
+    <string name="checkboxOption2">Bill Gates</string>
+    <string name="checkboxOption3">Bill Clinton</string>
+    <string name="checkboxOption4">Barack Obama</string>
+    <string name="question2">2.When was Google Founded?</string>
+    <string name="RadioButton1">1998</string>
+    <string name="RadioButton2">1994</string>
+    <string name="RadioButton3">1999</string>
+    <string name="question3">3.Which Company developed the First SmartPhone?</string>
+    <string name="description">Enter a number</string>
+    <string name="question4">4.What was Android Initial release date?</string>
+    <string name="RadioButton4_1">2008</string>
+    <string name="RadioButton4_2">2009</string>
+    <string name="RadioButton4_3">2007</string>
+    <string name="question5">5.Who is the founder of Apple?</string>
+    <string name="checkboxOption5_1">Steve Jobs</string>
+    <string name="checkboxOption5_2">Bill Gates</string>
+    <string name="checkboxOption5_3">Bill hobs</string>
+    <string name="checkboxOption5_4">Ronald Wayne</string>
+    <string name="submit">Submit</string>
+    <string name="caption">Test Your Knowledge</string>
+    <string name="quiz_master">Quiz Master</string>
+    <string name="toastMessageString1">Congrats!!!You Got All Correct</string>
+    <string name="toastMessageString2">\n Check Answers and Resubmit</string>
+    <string name="toastMessagestring3">\n You are Genius!!!</string>
+    <string name="toastMessageString3">You Got All Wrong</string>
+</resources>
