@@ -1,2 +1,2 @@
 # QuizApp
-QuizApp - Android Basics Nanodegree Program
+QuizApp - Android Basics Nanodegree Program in Kotlin
